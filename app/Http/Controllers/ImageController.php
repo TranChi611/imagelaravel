@@ -8,6 +8,6 @@ class ImageController extends Controller
 {
     public function sendImage()
     {
-        return response()->file(public_path("/storage/image.jpg"));
+        return response()->file(public_path("/storage/product_1.jpg"));
     }
 }
